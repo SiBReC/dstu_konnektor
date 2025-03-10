@@ -629,7 +629,7 @@ def check_activation():
         except:
             pass
         key = simpledialog.askstring("Активация", "Поддержка данной версии программы завершена! Обратитесь к разработчику или введите ключ отладки:", show='*')
-        if key != "kаsku-dt-830":
+        if key != "*":
             root.destroy()
             return False
         root.destroy()
